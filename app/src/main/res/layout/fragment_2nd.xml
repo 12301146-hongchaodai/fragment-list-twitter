@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.deitel.twittersearches.SecondFragment">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="fill_horizontal"
+        android:gravity="center_horizontal"
+        android:text="fragment_2nd"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="@dimen/item_height" />
+
+    <WebView
+        android:id="@+id/webView"
+        android:layout_marginTop="65dp"
+        android:layout_marginBottom="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </WebView>
+
+</FrameLayout>

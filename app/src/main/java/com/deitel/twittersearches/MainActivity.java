@@ -42,6 +42,7 @@ public class MainActivity extends Activity implements fragment_1st.OnFragmentInt
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         // get references to the EditTexts
         queryEditText = (EditText) findViewById(R.id.queryEditText);
         tagEditText = (EditText) findViewById(R.id.tagEditText);
